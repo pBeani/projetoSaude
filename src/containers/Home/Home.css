@@ -1,0 +1,26 @@
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    padding:  0 100px;
+    justify-content: space-between;
+}
+
+.filter {
+    position: fixed;
+    right: 50px;
+    top: 20px;
+    border-radius: 50px;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: 1.5px solid white;
+    cursor: pointer;
+    transition: all ease-in .1s;
+    z-index: 2;
+    width: 157px;
+    text-align: center;
+}
+
+.filter:hover {
+    transform: scale(1.02);
+}
