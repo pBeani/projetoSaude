@@ -1,0 +1,37 @@
+.viewHolder {
+    width: 25%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    box-shadow: 5px 5px 25px #e1e1e1;
+}
+
+.viewHolder h3 {
+    text-align: center;
+    color: #aeaeae;
+}
+
+.viewHolder.full {
+    width: 100%;
+}
+
+.viewHolder iframe {
+    width: 100% !important;
+}
+
+.viewHolder.fixed-height iframe {
+    height: 500px !important;
+}
+
+.viewHolder.extra-height iframe {
+    height: 620px !important;
+}
+
+.viewHolder.half {
+    width: 47%;
+}
+
+.viewHolder.hide {
+    display: none;
+}

@@ -1,0 +1,23 @@
+.TableauDashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    background: white;
+    border-radius: 10px 10px 20px 20px;
+    box-shadow: 5px 5px 10px 0 #9abae3;
+}
+
+.TableauDashboard div:last-child {
+    justify-content: flex-end;
+}
+
+
+
+.TableauDashboard > div:first-child {
+    margin-top: 20px;
+}
