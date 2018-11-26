@@ -29,12 +29,12 @@ class Home extends Component {
                 url: 'https://public.tableau.com/views/RP2-v2/Planilha3?:embed=y&:display_count=yes',
                 urlFilter: 'https://public.tableau.com/views/RP2-v2/Planilha4?:embed=y&:display_count=yes',
                 className: 'full extra-height',
-                title: 'Ocorrências por idade dos pacientes'
+                title: 'Ocorrências por cidade dos pacientes'
             },
             {
                 url: 'https://public.tableau.com/views/RP2-v2/Planilha9?:embed=y&:display_count=yes',
                 urlFilter: 'https://public.tableau.com/views/RP2-v2/Planilha10?:embed=y&:display_count=yes',
-                className: 'full extra-height',
+                className: 'full extra-height capped',
                 title: 'Ocorrências por idade dos pacientes'
             },
         ]
