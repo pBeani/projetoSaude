@@ -1,26 +1,43 @@
 .home{
     display: flex;
     flex-wrap: wrap;
-    padding:  0 100px;
+    padding:  0 10px;
     justify-content: space-between;
 }
 
 .filter {
     position: fixed;
-    right: 50px;
-    top: 20px;
+    right: 20px;
+    top: 65px;
     border-radius: 50px;
-    color: white;
+    background: white;
+    color: #aeaeae;
     padding: 15px;
     font-size: 18px;
-    border: 1.5px solid white;
+    border: 1.5px solid #aeaeae;
     cursor: pointer;
     transition: all ease-in .1s;
     z-index: 2;
     width: 157px;
     text-align: center;
+    font-weight: 600;
 }
 
 .filter:hover {
     transform: scale(1.02);
+}
+
+@media screen and (min-width: 749px) {
+    .home{
+        padding:  0 100px;
+    }
+
+    .filter {
+        top: 20px;
+        right: 50px;
+        background: transparent;
+        color: white;
+        border: 1.5px solid white;
+        font-weight: 400;
+    }
 }

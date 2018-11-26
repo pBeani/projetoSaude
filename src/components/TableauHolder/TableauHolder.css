@@ -3,7 +3,7 @@
     background: white;
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     box-shadow: 5px 5px 25px #e1e1e1;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .viewHolder.fixed-height iframe {
-    height: 500px !important;
+    height: 200px !important;
 }
 
 .viewHolder.extra-height iframe {
@@ -29,9 +29,31 @@
 }
 
 .viewHolder.half {
-    width: 47%;
+    width: 100%;
 }
 
 .viewHolder.hide {
     display: none;
+}
+
+.capped {
+    max-height: 200px;
+}
+
+@media screen and (min-width: 749px) {
+    .viewHolder.fixed-height iframe {
+        height: 500px !important;
+    }
+
+    .viewHolder.half {
+        width: 47%;
+    }
+
+    .viewHolder {
+        margin-bottom: 60px;
+    }
+
+    .capped {
+        max-height: unset;
+    }
 }
